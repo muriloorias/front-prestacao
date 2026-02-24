@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça o login</title>
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+
+<body>
+    <header>
+        <h1>faça o login</h1>
+    </header>
+    <main>
+            <div>
+                <form>
+                    <label for="fname">Quem recebera</label>
+                    <input type="text" id="forWhom" name="forWhom" placeholder="quem recebera">
+                    
+                    <label for="hired">contratação</label>
+                    <select id="hired" name="hired">
+                        <option value="yes">Sim</option>
+                        <option value="no">Não</option>
+                    </select>
+
+                    <label for="value">valor gasto</label>
+                    <input type="number" id="value" name="value" placeholder="Valor gasto">
+
+                    <label for="contratationType">Tipo de contratação</label>
+                    <input type="text" name="contratationType" id="contratationType" placeholder="tipo de contratação">
+
+                    <label for="madedBy">feito por quem</label>
+                    <input type="text" name="madedBy" id="madedBy" placeholder="feito por quem">
+
+                    <input type="button" value="inserir gasto">
+                 </form>
+            </div>
+    </main>
+</body>
+
+</html>

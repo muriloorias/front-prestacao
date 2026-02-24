@@ -1,0 +1,57 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+}
+
+header {
+      background-color: greenyellow;
+      color: black;
+      padding: 10px;
+      text-align: center;
+}
+
+.title{
+      margin-right: 400px;
+}
+
+.imageLogin{
+      margin-left: 1200px;
+      transform: translateY(-50px);
+}
+
+.makeLogin{
+      margin-left: 1200px;
+      transform: translateY(-50px);      
+}
+
+ul {
+      display: flex; 
+      justify-content: space-around; 
+      list-style-type: none; 
+}
+
+
+li {
+      padding: 20px; 
+}
+
+.item{
+      background-color: whitesmoke; 
+      width: 400px; 
+      height: 140px; 
+      border-radius: 10px; 
+      align-items: center; 
+      text-align: center; 
+      cursor: pointer;
+}
+
+.home{
+      margin-right: 1200px;
+}
+
+.clicable{
+      cursor: pointer;
+}
