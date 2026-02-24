@@ -11,25 +11,23 @@
 <body>
     <header>
         <h1 class="title">Bem vindo a pagina de prestação de xique xique bahia</h1>
-        <p class=".makeLogin">faça o login agora</p>
-        <img src="../imgs/user.jpg" width="70" height="70" class="imageLogin">
+        <img src="../imgs/user.jpg" width="70" height="70" class="imageLogin clicable" onclick="goTologin()">
+        <p class="makeLogin">faça o login agora</p>
     </header>
     <main>
         <ul>
-            <li class="item">
+            <li class="item" onclick="goToServers()">
                 <h2>servidores publicos</h2>
             </li>
-            <li class="item">
+            <li class="item" onclick="goToPayments()">
                 <h2>pagamentos</h2>
             </li>
-            <li class="item">
+            <li class="item" onclick="goToAid()">
                 <h2>auxilios</h2>
-            </li>
-            <li class="item">
-                <h2>pagamentos</h2>
             </li>
         </ul>
     </main>
+    <script src="../js/home.js"></script>
 </body>
 
 </html>

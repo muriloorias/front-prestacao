@@ -13,14 +13,13 @@ header {
       text-align: center;
 }
 
-/*configuração do header*/
 .title{
       margin-right: 400px;
 }
 
 .imageLogin{
       margin-left: 1200px;
-      transform: translateY(-70px);
+      transform: translateY(-50px);
 }
 
 .makeLogin{
@@ -46,5 +45,9 @@ li {
       border-radius: 10px; 
       align-items: center; 
       text-align: center; 
-      cursor: pointer; 
+      cursor: pointer;
+}
+
+.clicable{
+      cursor: pointer;
 }
